@@ -1,0 +1,37 @@
+Copyright (c) 2026 mamkincoderr
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+SPDX-License-Identifier: 0BSD
+
+---
+
+The 0BSD grant above covers this repository except the Nanjing Qinheng
+(WCH) Standard Peripheral Library and EVT files. Those remain copyright
+Nanjing Qinheng Microelectronics Co., Ltd. and, per their headers, may be
+used (modified or not) for microcontrollers manufactured by Nanjing
+Qinheng Microelectronics. They are not relicensed by this file.
+
+WCH / EVT trees and files in this repo include:
+
+  Core/
+  Peripheral/
+  Startup/
+  Ld/
+  Debug/debug.c
+  Debug/debug.h
+  User/V3F/system_ch32h417.c, User/V5F/system_ch32h417.c
+  User/V3F/system_ch32h417.h, User/V5F/system_ch32h417.h
+  User/V3F/ch32h417_conf.h,   User/V5F/ch32h417_conf.h
+  User/V3F/ch32h417_it.c,     User/V5F/ch32h417_it.c
+  User/V3F/ch32h417_it.h,     User/V5F/ch32h417_it.h
+  svd/CH32H417xx.svd

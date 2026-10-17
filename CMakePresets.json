@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "CH32H417, GCC 15 (MRS2), Ninja",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/obj",
+      "toolchainFile": "${sourceDir}/cmake/toolchain-wch-gcc15.cmake",
+      "cacheVariables": { "CMAKE_EXPORT_COMPILE_COMMANDS": "ON" }
+    }
+  ],
+  "buildPresets": [ { "name": "default", "configurePreset": "default" } ]
+}

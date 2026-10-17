@@ -1,0 +1,6 @@
+obj/
+.mrs/
+*.bak
+tools/gcc/
+tools/openocd/
+docs/
